@@ -202,6 +202,8 @@ footer {
 footer > ul {
     display: flex;
     justify-content: flex-end;
+    list-style-type: none;
+
 }
 
 footer > ul > li {
@@ -215,4 +217,12 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
+
+
+
+
+
+
+
+
 
