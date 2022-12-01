@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .page-wrap {
@@ -19,7 +20,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 @media (max-width: 600px) {
@@ -45,7 +46,7 @@ header {
     height: 100%;
     max-width: 200px;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
 }
@@ -107,9 +108,9 @@ nav li {
     text-align: center;
     height: 400px;
     margin-top: 50px;
-
 }
-#shop input[type='email'] {
+
+#shop input[type="email"] {
     width: 100%;
     padding: 15px 20px;
     margin-top: 50px;
@@ -122,11 +123,19 @@ nav li {
 }
 
 .btn {
-    width: 60%;
+    height: 37px;
+    width: 70%;
     padding: 10px 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background: transparent;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: default;
-    margin: 20px 0;
+    margin: 10px 0;
+}
+
+.pricing > button {
+    border: 0;
+    margin: 30px 0;
+    cursor: pointer;
 }
 
 .grid {
@@ -171,7 +180,8 @@ nav li {
     }
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Sofia", sans-serif;
     font-size: 40px;
     color: #393960;
@@ -191,7 +201,6 @@ p {
     padding: 20px 0;
     line-height: 1.6;
     font-size: 20px;
-
 }
 
 #video-description {
@@ -206,7 +215,7 @@ p {
 }
 
 @media only screen and (max-width: 620px) {
-    #video-description > iframe  {
+    #video-description > iframe {
         width: 100%;
         display: inline;
     }
@@ -238,7 +247,9 @@ p {
         margin: 0 auto;
     }
 }
-.level, h3 {
+
+.level,
+h3 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
@@ -278,15 +289,11 @@ footer > span {
     justify-content: flex-end;
     font-size: 0.9em;
     color: #444;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .page-wrap {
@@ -300,7 +307,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 @media (max-width: 600px) {
@@ -326,7 +333,7 @@ header {
     height: 100%;
     max-width: 200px;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
 }
@@ -388,9 +395,9 @@ nav li {
     text-align: center;
     height: 400px;
     margin-top: 50px;
-
 }
-#shop input[type='email'] {
+
+#shop input[type="email"] {
     width: 100%;
     padding: 15px 20px;
     margin-top: 50px;
@@ -405,7 +412,7 @@ nav li {
 .btn {
     width: 60%;
     padding: 10px 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: default;
     margin: 20px 0;
 }
@@ -452,7 +459,8 @@ nav li {
     }
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Sofia", sans-serif;
     font-size: 40px;
     color: #393960;
@@ -472,7 +480,6 @@ p {
     padding: 20px 0;
     line-height: 1.6;
     font-size: 20px;
-
 }
 
 #video-description {
@@ -487,7 +494,7 @@ p {
 }
 
 @media only screen and (max-width: 620px) {
-    #video-description > iframe  {
+    #video-description > iframe {
         width: 100%;
         display: inline;
     }
@@ -519,7 +526,9 @@ p {
         margin: 0 auto;
     }
 }
-.level, h3 {
+
+.level,
+h3 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
@@ -559,4 +568,4 @@ footer > span {
     justify-content: flex-end;
     font-size: 0.9em;
     color: #444;
-  }
+}
